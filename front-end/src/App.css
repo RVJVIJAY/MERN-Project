@@ -1,0 +1,74 @@
+/* src/App.css */
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-form button:hover {
+  background-color: #218838;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item h3 {
+  margin: 0;
+}
+
+.todo-item p {
+  margin: 10px 0;
+}
+
+.todo-item button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-item button:first-of-type {
+  background-color: #ffc107;
+  color: white;
+}
+
+.todo-item button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+}
+
+.todo-item button:hover {
+  opacity: 0.9;
+}
